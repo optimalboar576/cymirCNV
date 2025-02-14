@@ -27,11 +27,11 @@ To use **cymiRCNV**, you need **paired gene and miRNA expression data** from the
 - The **remaining columns** should contain **expression values** for each sample (recommended to use normalized count).  
 - **Sample IDs must match exactly** between miRNA and gene expression datasets.  
 
-#### Example: miRNA Expression Data (Download Example ([ miRNA Expression file](example_data/miRNA.csv)))
+#### Example: miRNA Expression Data (Download Example [ miRNA Expression file](example_data/miRNA.csv))
 
 ![miRNA](images/dem.png)
 
-### Example: gene Expression Data
+### Example: gene Expression Data (Download Example [ mRNA Expression file](example_data/mRNA.csv))
 ![mRNA](images/deg.png)
 
 ## 🚨 Important Notes:
