@@ -1,3 +1,4 @@
+![logo](images/logo_cymirCNV.png) 
 # cymiRCNV
 ## A Cytoscape plug-in for miRNA-Gene Correlation Network Analysis
 
