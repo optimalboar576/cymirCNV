@@ -1,7 +1,11 @@
-<table>
-  <tr>
-    <td><img src="images/logo_cymirCNV.png" alt="cymirCNV Logo" width="50"></td>
-    <td><h1>cymiRCNV</h1></td>
+<table style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td style="border: none; padding-right: 10px;">
+      <img src="images/logo_cymirCNV.png" alt="cymirCNV Logo" width="50">
+    </td>
+    <td style="border: none;">
+      <h1>cymiRCNV</h1>
+    </td>
   </tr>
 </table>
 
