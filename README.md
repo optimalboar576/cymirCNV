@@ -37,11 +37,7 @@ To use **cymiRCNV**, you need **paired gene and miRNA expression data** from the
 ![cymiRCNV Logo](images/dem.png)
 
 ### Example: gene Expression Data
-```csv
-ID,Sample1,Sample2,Sample3,Sample4
-TP53,1.5,2.4,3.2,2.8
-BCL2,2.8,3.1,4.0,3.7
-```
+![cymiRCNV Logo](images/deg.png)
 
 ## 🚨 Important Notes:
 ### ✔ File format: Ensure the data is correctly formatted (no missing values).
