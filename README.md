@@ -1,10 +1,10 @@
-<table style="border-collapse: collapse; border: none;">
+<table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
-    <td style="border: none; padding-right: 10px;">
+    <td style="border: none; padding-right: 10px; vertical-align: middle;">
       <img src="images/logo_cymirCNV.png" alt="cymirCNV Logo" width="50">
     </td>
-    <td style="border: none;">
-      <h1>cymiRCNV</h1>
+    <td style="border: none; vertical-align: middle;">
+      <h1 style="margin: 0;">cymiRCNV</h1>
     </td>
   </tr>
 </table>
