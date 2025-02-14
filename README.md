@@ -35,8 +35,8 @@ To use **cymiRCNV**, you need **paired gene and miRNA expression data** from the
 ![mRNA](images/deg.png)
 
 ## 🚨 Important Notes:
- ✔ File format: Ensure the data is correctly formatted (no missing values & normalized).
- ✔ Matching columns: The sample IDs must be identical in both miRNA and gene expression datasets.
+- ✔ File format: Ensure the data is correctly formatted (no missing values & normalized).
+- ✔ Matching columns: The sample IDs must be identical in both miRNA and gene expression datasets.
 
 ## 4. Running cymiRCNV in Cytoscape
 ### Step 1: Load the Expression Data
@@ -51,7 +51,7 @@ Set a correlation threshold (e.g., 0.7 for strong correlations).
 Set p-value cutoff (default: >0.05)
 Click Run Analysis – cymiRCNV will generate a correlation-based miRNA-gene network.
 ### Step 3: Network Visualization
-The miRNA-gene correlation network will appear in the Cytoscape workspace.
-Nodes represent miRNAs (e.g., red) and genes (e.g., blue).
-Edges represent correlation (white edges for positive and red edges for negative correlations).
-Use Cytoscape’s layout options to adjust the visualization.
+- The miRNA-gene correlation network will appear in the Cytoscape workspace.
+- Nodes represent miRNAs (e.g., red) and genes (e.g., blue).
+- Edges represent correlation (white edges for positive and red edges for negative correlations).
+- Use Cytoscape’s layout options to adjust the visualization.
