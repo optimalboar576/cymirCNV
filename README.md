@@ -27,7 +27,7 @@ To use **cymiRCNV**, you need **paired gene and miRNA expression data** from the
 - The **remaining columns** should contain **expression values** for each sample (recommended to use normalized count).  
 - **Sample IDs must match exactly** between miRNA and gene expression datasets.  
 
-#### Example: miRNA Expression Data  
+#### Example: miRNA Expression Data  ([Download Example miRNA Expression file](ex))
 
 ![miRNA](images/dem.png)
 
@@ -37,6 +37,7 @@ To use **cymiRCNV**, you need **paired gene and miRNA expression data** from the
 ## 🚨 Important Notes:
 - ✔ File format: Ensure the data is correctly formatted (no missing values & normalized).
 - ✔ Matching columns: The sample IDs must be identical in both miRNA and gene expression datasets.
+- ✔ For optimal performance and meaningful insights, it is recommended to use a filtered subset of the expression data containing only differentially expressed miRNAs (DEMs) and differentially expressed genes (DEGs). Additionally, the data should be properly normalized to ensure accurate correlation analysis. Constructing a correlation network using the entire count dataset is not only computationally intensive but may also introduce noise, reducing the biological relevance of the results.
 
 ## 4. Running cymiRCNV in Cytoscape
 ### Step 1: Load the Expression Data
@@ -48,7 +49,7 @@ To use **cymiRCNV**, you need **paired gene and miRNA expression data** from the
 ### Step 2: Choose Correlation Method and thresholds
 - Select Pearson correlation (for linear relationships) or Spearman correlation (for rank-based relationships).
 - Set a correlation threshold (e.g., 0.7 for strong correlations).
-- Set p-value cutoff (default: >0.05)
+- Set p-value cutoff (default: <0.05)
 - Click Run Analysis – cymiRCNV will generate a correlation-based miRNA-gene network.
 ### Step 3: Network Visualization
 - The miRNA-gene correlation network will appear in the Cytoscape workspace.
