@@ -22,14 +22,14 @@ In Cytoscape, go to Apps → App Manager → Install from File.
 Select the downloaded cymiRCNV JAR file and click Open.
 Restart Cytoscape to apply changes.
 
-### 3. Preparing Input Data  
+## 3. Preparing Input Data  
 
 To use **cymiRCNV**, you need **paired gene and miRNA expression data** from the **same samples**.  
 
 #### File Format  
 - The data should be in **CSV** format.  
 - The **first column** should contain **miRNA or gene IDs**.  
-- The **remaining columns** should contain **expression values** for each sample.  
+- The **remaining columns** should contain **expression values** for each sample (recommended to use normalized count).  
 - **Sample IDs must match exactly** between miRNA and gene expression datasets.  
 
 #### Example: miRNA Expression Data  
@@ -40,5 +40,5 @@ To use **cymiRCNV**, you need **paired gene and miRNA expression data** from the
 ![cymiRCNV Logo](images/deg.png)
 
 ## 🚨 Important Notes:
-### ✔ File format: Ensure the data is correctly formatted (no missing values).
+### ✔ File format: Ensure the data is correctly formatted (no missing values & normalized).
 ### ✔ Matching columns: The sample IDs must be identical in both miRNA and gene expression datasets.
