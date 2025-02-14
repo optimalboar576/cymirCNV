@@ -1,13 +1,8 @@
-# cymirCNV
-## A cytoscape plugin for miRNA-gene correlation network visualization
-
-cymirCNV is a Cytoscape plug-in designed for constructing and visualizing miRNA-gene correlation networks from expression data. It supports Pearson and Spearman correlation analysis, allowing users to explore regulatory interactions with customizable thresholds. Ideal for researchers studying miRNA-mediated gene regulation, cymirCNV streamlines data preprocessing, correlation computation, and network visualization within Cytoscape.
-
-# cymiRCNV: A Step-by-Step Tutorial
+# cymiRCNV
 ## A Cytoscape plug-in for miRNA-Gene Correlation Network Analysis
 
 ## 1. Introduction
-cymiRCNV is a Cytoscape plug-in designed for constructing and visualizing miRNA-gene correlation networks from expression data. It supports Pearson and Spearman correlation analysis and allows users to explore regulatory interactions interactively.
+cymirCNV is a Cytoscape plug-in designed for constructing and visualizing miRNA-gene correlation networks from expression data. It supports Pearson and Spearman correlation analysis, allowing users to explore regulatory interactions with customizable thresholds. Ideal for researchers studying miRNA-mediated gene regulation, cymirCNV streamlines data preprocessing, correlation computation, and network visualization within Cytoscape.
 
 ## 2. Installation
 ### Method 1: Install from Cytoscape App Store
@@ -34,10 +29,10 @@ To use **cymiRCNV**, you need **paired gene and miRNA expression data** from the
 
 #### Example: miRNA Expression Data  
 
-![cymiRCNV Logo](images/dem.png)
+![miRNA](images/dem.png)
 
 ### Example: gene Expression Data
-![cymiRCNV Logo](images/deg.png)
+![mRNA](images/deg.png)
 
 ## 🚨 Important Notes:
 ### ✔ File format: Ensure the data is correctly formatted (no missing values & normalized).
