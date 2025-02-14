@@ -1,4 +1,4 @@
-<html><img src="images/logo_cymiRCNV.png" alt="cymiRCNV Logo" width="300"></html>
+<html><img src="images/logo_cymiRCNV.png" alt="cymirCNV Logo" width="300"></html>
 # cymiRCNV
 ## A Cytoscape plug-in for miRNA-Gene Correlation Network Analysis
 
