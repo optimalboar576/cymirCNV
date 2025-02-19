@@ -18,7 +18,7 @@ cymirCNV is a Cytoscape plug-in designed for constructing and visualizing miRNA-
 - Click Install and wait for the installation to complete.
 - Restart Cytoscape to enable the plug-in.
 ### Method 2: Manual Installation (Alternative)
-- Download the cymiRCNV JAR file from the [Cytoscape App](https://apps.cytoscape.org/apps/cymircnv) Store or GitHub.
+- Download the cymiRCNV JAR file from the [Cytoscape App Store](https://apps.cytoscape.org/apps/cymircnv) or GitHub.
 - In Cytoscape, go to Apps → App Manager → Install from File.
 - Select the downloaded cymiRCNV JAR file and click Open.
 - Restart Cytoscape to apply changes.
