@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td><img src="images/logo_cymirCNV.png" alt="cymirCNV Logo" width="50"></td>
-    <td><h1>cymiRCNV</h1></td>
+    <td><h1>cymirCNV</h1></td>
   </tr>
 </table>
 
@@ -20,12 +20,12 @@ cymirCNV is a Cytoscape plug-in designed for constructing and visualizing miRNA-
 ### Method 2: Manual Installation (Alternative)
 - Download the cymiRCNV JAR file from the [Cytoscape App Store](https://apps.cytoscape.org/apps/cymircnv) or GitHub.
 - In Cytoscape, go to Apps → App Manager → Install from File.
-- Select the downloaded cymiRCNV JAR file and click Open.
+- Select the downloaded cymirCNV JAR file and click Open.
 - Restart Cytoscape to apply changes.
 
 ## 3. Preparing Input Data  
 
-To use **cymiRCNV**, you need **paired gene and miRNA expression data** from the **same samples**.  
+To use **cymirCNV**, you need **paired gene and miRNA expression data** from the **same samples**.  
 
 #### File Format  
 - The data should be in **CSV** format.  
@@ -45,10 +45,10 @@ To use **cymiRCNV**, you need **paired gene and miRNA expression data** from the
 - ✔ Matching columns: The sample IDs must be identical in both miRNA and gene expression datasets.
 - ✔ For optimal performance and meaningful insights, it is recommended to use a filtered subset of the expression data containing only differentially expressed miRNAs (DEMs) and differentially expressed genes (DEGs). Additionally, the data should be properly normalized to ensure accurate correlation analysis. Constructing a correlation network using the entire count dataset is not only computationally intensive but may also introduce noise, reducing the biological relevance of the results.
 
-## 4. Running cymiRCNV in Cytoscape
+## 4. Running cymirCNV in Cytoscape
 ### Step 1: Load the Expression Data
 - Open Cytoscape.
-- Navigate to Apps → cymiRCNV.
+- Navigate to Apps → cymirCNV.
 - Select the miRNA expression file (CSV).
 - Select the gene expression file (CSV).
 - Click Open – a preview of the data will be displayed.
